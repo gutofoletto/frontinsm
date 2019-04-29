@@ -1,0 +1,28 @@
+@import '../../colors';
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.social {
+  color: $color-white;
+  width: 100%;
+
+  .container {
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  &__link {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    svg {
+      fill: $color-white;
+    }
+  }
+}
