@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/frontinsm/static/css/main.ac5a82af.chunk.css",
+    "main.js": "/frontinsm/static/js/main.df2f14f7.chunk.js",
+    "main.js.map": "/frontinsm/static/js/main.df2f14f7.chunk.js.map",
+    "runtime~main.js": "/frontinsm/static/js/runtime~main.fc255444.js",
+    "runtime~main.js.map": "/frontinsm/static/js/runtime~main.fc255444.js.map",
+    "static/js/2.263536ec.chunk.js": "/frontinsm/static/js/2.263536ec.chunk.js",
+    "static/js/2.263536ec.chunk.js.map": "/frontinsm/static/js/2.263536ec.chunk.js.map",
+    "index.html": "/frontinsm/index.html",
+    "precache-manifest.a3d29dfc93386763c9edd29160ab6310.js": "/frontinsm/precache-manifest.a3d29dfc93386763c9edd29160ab6310.js",
+    "service-worker.js": "/frontinsm/service-worker.js",
+    "static/css/main.ac5a82af.chunk.css.map": "/frontinsm/static/css/main.ac5a82af.chunk.css.map",
+    "static/media/Home.scss": "/frontinsm/static/media/home__banner.33c019b2.jpg",
+    "static/media/icon-email.d3e12ebd.svg": "/frontinsm/static/media/icon-email.d3e12ebd.svg",
+    "static/media/icon-facebook.f050fe19.svg": "/frontinsm/static/media/icon-facebook.f050fe19.svg",
+    "static/media/icon-twitter.dca1815f.svg": "/frontinsm/static/media/icon-twitter.dca1815f.svg",
+    "static/media/logo.d891d556.svg": "/frontinsm/static/media/logo.d891d556.svg"
+  }
+}
