@@ -1,7 +1,8 @@
-import React, { Fragment } from 'react'
+import React from 'react'
+import Helmet from 'react-helmet'
 
 const MetaTwitter = () => (
-  <Fragment>
+  <Helmet>
     <meta
       name='twitter:card'
       content='O Front-in SM (Santa Maria) foi criado com a finalidade de reunir o maior número possível de pessoas interessadas em trocar conhecimento sobre tecnologias Web Front-End.'
@@ -13,8 +14,11 @@ const MetaTwitter = () => (
       content='O Front-in SM (Santa Maria) foi criado com a finalidade de reunir o maior número possível de pessoas interessadas em trocar conhecimento sobre tecnologias Web Front-End.'
     />
     <meta name='twitter:creator' content='@gutofoletto' />
-    <meta name='twitter:image:src' content='%PUBLIC_URL%/twitter.jpg' />
-  </Fragment>
+    <meta
+      name='twitter:image:src'
+      content={`${process.env.PUBLIC_URL}/twitter.jpg`}
+    />
+  </Helmet>
 )
 
 export default MetaTwitter

@@ -5,7 +5,7 @@ const MetaMs = () => (
     <meta name='msapplication-TileColor' content='#000000' />
     <meta
       name='msapplication-TileImage'
-      content='%PUBLIC_URL%/favicon/mstile-144x144.4433403a.png'
+      content={`${process.env.PUBLIC_URL}/favicon/mstile-144x144.4433403a.png`}
     />
   </Fragment>
 )
