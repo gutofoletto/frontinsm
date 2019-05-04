@@ -1,11 +1,13 @@
 import React from 'react'
-import Banner from '../components/Banner/Banner'
+
+import { About, Banner } from '../components'
 
 import './Home.scss'
 
 const Home = () => (
   <main className='home'>
     <Banner />
+    <About />
   </main>
 )
 

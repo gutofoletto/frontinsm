@@ -8,7 +8,7 @@ const Credits = ({ name }) => (
       <span role='img' aria-label='green heart'>
         💚
       </span>{' '}
-      by
+      by{' '}
       <a href='http://github.com/gutofoletto' title='gutofoletto'>
         gutofoletto
       </a>
