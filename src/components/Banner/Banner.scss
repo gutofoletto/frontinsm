@@ -3,10 +3,15 @@
 
 .banner {
   align-items: flex-start;
+  background-image: url("../../images/home__banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   flex: 1;
   justify-content: center;
   overflow: hidden;
+  min-height: 100%;
   width: 100%;
 
   @media (min-width: $size-tablet) {
