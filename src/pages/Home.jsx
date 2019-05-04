@@ -7,6 +7,7 @@ import {
   Speakers,
   Staff,
   Sponsors,
+  Faq,
 } from '../components'
 
 import './Home.scss'
@@ -19,6 +20,7 @@ const Home = () => (
     <Speakers />
     <Staff />
     <Sponsors />
+    <Faq />
   </main>
 )
 
