@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { About, Banner, Features } from '../components'
+import { About, Banner, Features, Speakers } from '../components'
 
 import './Home.scss'
 
@@ -9,6 +9,7 @@ const Home = () => (
     <Banner />
     <About />
     <Features />
+    <Speakers />
   </main>
 )
 
