@@ -1,3 +1,5 @@
+@import '../../config.scss';
+
 .column {
   @media (min-width: $size-tablet) {
     flex: 0 0 1;
