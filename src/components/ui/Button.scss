@@ -1,4 +1,5 @@
 @import '../../colors';
+@import '../../config';
 @import '../../typography';
 
 .button {
@@ -20,7 +21,7 @@
     background-color: $color-primary;
     content: "";
     height: 100%;
-    transform: skewX(-15deg);
+    transform: skewX($skew);
     width: 100%;
     position: absolute;
     left: 0;

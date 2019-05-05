@@ -34,7 +34,6 @@
     fill: $color-white;
     display: flex;
     padding: 2rem;
-    transform: skew(-15deg);
     height: 10rem;
 
     @media (min-width: $size-tablet) {
@@ -46,25 +45,31 @@
     svg {
       display: block;
       fill: inherit;
-      transform: skew(15deg);
       margin: 0 auto;
     }
   }
 
   &__content {
-    background-color: $color-white;
     padding: 2rem;
-    transform: skew(-15deg);
     position: relative;
     text-align: center;
+    z-index: 0;
 
     @media (min-width: $size-desktop) {
       padding: 2rem 5rem;
     }
-  }
 
-  &__title {
-    transform: skew(15deg);
+    &:after {
+      background-color: $color-white;
+      content: '';
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      transform: skew($skew);
+      z-index: -1;
+    }
   }
 
   &__cta {
