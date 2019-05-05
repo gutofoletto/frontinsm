@@ -1,0 +1,81 @@
+@import '../colors.scss';
+@import '../config.scss';
+
+.speaker {
+  align-content: flex-start;
+  margin: 1rem 0;
+  display: flex;
+
+  &__head {
+    flex: 0 0 1;
+    text-align: center;
+    width: 8rem;
+
+    @media (min-width: $size-tablet) {
+      width: 12rem;
+    }
+  }
+
+  &__avatar {
+    border: 0.5rem solid $color-white;
+    display: block;
+    position: relative;
+  }
+
+  &__info {
+    align-items: center;
+    background-color: $color-white;
+    position: relative;
+    padding: 2rem 0.5rem 1rem;
+  }
+
+  &__company {
+    color: $color-black;
+    display: block;
+  }
+
+  &__name {
+    color: $color-white;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: absolute;
+    text-align: center;
+    right: 50%;
+    top: -2rem;
+    transform: translateX(50%);
+    width: auto;
+    z-index: 0;
+    white-space: nowrap;
+
+    @media (min-width: $size-tablet) {
+      transform: none;
+      right: -1rem;
+    }
+
+    &:after {
+      background-color: $color-primary;
+      content: '';
+      height: 100%;
+      left: 0;
+      top: 0;
+      position: absolute;
+      transform: skew($skew);
+      width: 100%;
+      z-index: -1;
+    }
+  }
+
+  &__description {
+    flex: 1;
+    padding: 0 1rem 0 2rem;
+    display: none;
+    @media(min-width: $size-tablet) {
+      display: block;
+    }
+  }
+
+  &__bio {
+    margin: 0 0 2rem;
+  }
+}

@@ -5,13 +5,16 @@ import { Speaker } from '../components'
 
 import speakers from '../data/speakers'
 
+import './Speakers.scss'
+
 const Speakers = () => {
   return (
-    <Section title='Speakers' className='speakers'>
+    <Section title='Speakers' classname='speakers'>
       <Container>
-        {speakers.map((speaker, index) => (
-          <Speaker {...speaker} key={index} />
-        ))}
+        {speakers.map(
+          (speaker, index) =>
+            !speaker.hidden && <Speaker {...speaker} key={index} />
+        )}
       </Container>
     </Section>
   )
