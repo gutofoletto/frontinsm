@@ -1,4 +1,5 @@
-@import '../colors';
+@import '../../colors';
+@import '../../typography';
 
 .button {
   background: transparent;
@@ -6,9 +7,13 @@
   color: $color-white;
   cursor: pointer;
   display: inline-block;
-  padding: 1rem;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  padding: 1.5rem 2.5rem;
   position: relative;
   text-align: center;
+  text-transform: uppercase;
   z-index: 1;
 
   &:after {

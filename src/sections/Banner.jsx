@@ -1,5 +1,6 @@
 import React from 'react'
 import { ReactComponent as Logo } from '../images/logo.svg'
+import { Button } from '../components'
 
 import './Banner.scss'
 
@@ -10,9 +11,12 @@ const Banner = () => (
         <Logo alt='Front in Santa Maria' width='128' />
       </div>
       <div className='banner__content'>
-        <h2 className='banner__title'>8 de Junho de 2019</h2>
+        <h2 className='banner__title'>08 de Junho • 9h</h2>
         <h2 className='banner__title'>Itaimbé Palace Hotel</h2>
       </div>
+    </div>
+    <div className='banner__cta'>
+      <Button type='button'>Inscreva-se</Button>
     </div>
   </div>
 )
