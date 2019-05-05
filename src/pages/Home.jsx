@@ -7,6 +7,7 @@ import {
   Staff,
   Sponsors,
   Faq,
+  Tickets,
   Tips,
 } from '../sections'
 
@@ -18,6 +19,7 @@ const Home = () => (
     <About />
     <Features />
     <Speakers />
+    <Tickets />
     <Staff />
     <Sponsors />
     <Tips />
