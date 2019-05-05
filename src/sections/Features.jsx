@@ -1,6 +1,5 @@
 import React from 'react'
-import { Container } from '..'
-import { Column } from '..'
+import { Column, Container } from '../components/layout'
 
 const Features = () => (
   <section className='features'>

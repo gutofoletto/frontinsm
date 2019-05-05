@@ -1,6 +1,5 @@
 import React from 'react'
-import { Container } from '..'
-import { Section } from '..'
+import { Container, Section } from '../components/layout'
 
 const About = () => (
   <Section classname='about'>

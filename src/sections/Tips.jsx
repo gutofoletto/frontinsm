@@ -1,14 +1,14 @@
 import React from 'react'
-import { Section, Container } from '..'
-import Hotel from './Hotel'
+import { Section, Container } from '../components/layout'
+import { Hotel } from '../components'
 
-import hotels from '../../data/hotels'
+import hotels from '../data/hotels'
 
 const Tips = () => (
   <Section title='Hospedagem' className='hospedagem'>
     <Container>
       {hotels.map(hotel => (
-        <Hotel {...hotel} />
+        <Hotel key={hotel.name} {...hotel} />
       ))}
     </Container>
   </Section>

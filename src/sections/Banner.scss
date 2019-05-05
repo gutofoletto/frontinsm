@@ -1,9 +1,9 @@
-@import '../../colors';
-@import '../../config';
+@import '../colors';
+@import '../config';
 
 .banner {
   align-items: flex-start;
-  background-image: url("../../images/home__banner.jpg");
+  background-image: url("../images/home__banner.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

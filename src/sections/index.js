@@ -1,0 +1,8 @@
+export { default as About } from './About'
+export { default as Banner } from './Banner'
+export { default as Faq } from './Faq'
+export { default as Features } from './Features'
+export { default as Speakers } from './Speakers'
+export { default as Sponsors } from './Sponsors'
+export { default as Staff } from './Staff'
+export { default as Tips } from './Tips'

@@ -1,9 +1,8 @@
 import React from 'react'
-import Section from '../Layout/Section'
-import Container from '../Layout/Container'
+import { Container, Section } from '../components/layout'
 
-import sponsors from '../../data/sponsors'
-import Sponsor from './Sponsor'
+import sponsors from '../data/sponsors'
+import Sponsor from '../components/Sponsor'
 
 const { gold, silver, bronze } = sponsors
 

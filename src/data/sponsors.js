@@ -3,7 +3,7 @@ const sponsors = {
     {
       name: 'Globo.com',
       brand: '',
-      url: 'https://globo.com',
+      url: 'https://www.globo.com',
     },
     {
       name: 'GoDaddy',

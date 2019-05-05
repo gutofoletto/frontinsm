@@ -2,7 +2,7 @@ const linkComponent = url =>
   url
     ? {
         Component: 'a',
-        href: { url },
+        href: url,
         target: '__blank',
         rel: 'noopener nofollow',
       }

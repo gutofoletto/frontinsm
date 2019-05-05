@@ -1,10 +1,8 @@
 import React from 'react'
-import { Section } from '..'
-import { Container } from '..'
-import Member from './Member'
+import { Container, Column, Section } from '../components/layout'
+import { Member } from '../components'
 
-import staff from '../../data/staff'
-import Column from '../Layout/Column'
+import staff from '../data/staff'
 
 const Staff = () => (
   <Section title='Staff'>

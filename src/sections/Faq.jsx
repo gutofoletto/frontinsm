@@ -1,8 +1,8 @@
 import React from 'react'
-import { Section, Container, Column } from '..'
+import { Section, Container, Column } from '../components/layout'
 
-import faq from '../../data/faq'
-import Topic from './Topic'
+import faq from '../data/faq'
+import Topic from '../components/Topic'
 
 const Faq = () => (
   <Section title='Perguntas Frequentes'>

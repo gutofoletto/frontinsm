@@ -1,8 +1,8 @@
 import React from 'react'
-import linkComponent from '../../utils/linkComponent'
+import linkComponent from '../utils/linkComponent'
 
 const Hotel = ({ name, address, phone, website }) => {
-  const { Component, linkProps } = linkComponent(website)
+  const { Component, ...linkProps } = linkComponent(website)
   return (
     <Component className='hotel' {...linkProps}>
       <span className='hotel__name'>{name}</span>

@@ -1,5 +1,5 @@
 import React from 'react'
-import linkComponent from '../../utils/linkComponent'
+import linkComponent from '../utils/linkComponent'
 
 const Sponsor = ({ name, brand, url }) => {
   const { Component, ...linkProps } = linkComponent(url)

@@ -3,9 +3,9 @@ import Credits from './Credits'
 import { ReactComponent as Facebook } from '../../images/icon-facebook.svg'
 import { ReactComponent as Twitter } from '../../images/icon-twitter.svg'
 import { ReactComponent as Email } from '../../images/icon-email.svg'
+import { Container } from '../layout'
 
 import './Footer.scss'
-import Container from '../Layout/Container'
 
 const Footer = () => (
   <footer className='footer'>

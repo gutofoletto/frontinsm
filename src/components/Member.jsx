@@ -1,8 +1,8 @@
 import React from 'react'
 
-import { ReactComponent as Twitter } from '../../images/icon-twitter.svg'
-import { ReactComponent as Github } from '../../images/icon-github.svg'
-import { ReactComponent as Medium } from '../../images/icon-medium.svg'
+import { ReactComponent as Twitter } from '../images/icon-twitter.svg'
+import { ReactComponent as Github } from '../images/icon-github.svg'
+import { ReactComponent as Medium } from '../images/icon-medium.svg'
 
 import './Member.scss'
 

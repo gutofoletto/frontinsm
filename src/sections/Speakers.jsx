@@ -1,10 +1,9 @@
 import React from 'react'
 
-import { Container } from '..'
-import { Section } from '..'
-import { Speaker } from '..'
+import { Container, Section } from '../components/layout'
+import { Speaker } from '../components'
 
-import speakers from '../../data/speakers'
+import speakers from '../data/speakers'
 
 const Speakers = () => {
   return (

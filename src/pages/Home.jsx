@@ -1,5 +1,4 @@
 import React from 'react'
-
 import {
   About,
   Banner,
@@ -8,10 +7,10 @@ import {
   Staff,
   Sponsors,
   Faq,
-} from '../components'
+  Tips,
+} from '../sections'
 
 import './Home.scss'
-import Tips from '../components/Tips/Tips'
 
 const Home = () => (
   <main className='home'>
