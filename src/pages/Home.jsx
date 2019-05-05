@@ -11,6 +11,7 @@ import {
 } from '../components'
 
 import './Home.scss'
+import Tips from '../components/Tips/Tips'
 
 const Home = () => (
   <main className='home'>
@@ -20,6 +21,7 @@ const Home = () => (
     <Speakers />
     <Staff />
     <Sponsors />
+    <Tips />
     <Faq />
   </main>
 )

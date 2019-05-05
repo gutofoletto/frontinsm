@@ -1,19 +1,10 @@
 import React from 'react'
-
-const setup = url =>
-  url
-    ? {
-        Component: 'a',
-        href: { url },
-        target: '__blank',
-        rel: 'noopener nofollow',
-      }
-    : { Component: 'div' }
+import linkComponent from '../../utils/linkComponent'
 
 const Sponsor = ({ name, brand, url }) => {
-  const { Component, ...Props } = setup(url)
+  const { Component, ...linkProps } = linkComponent(url)
   return (
-    <Component className='sponsor' {...Props}>
+    <Component className='sponsor' {...linkProps}>
       {!!brand && <img src={brand} alt={name} className='sponsor__brand' />}
       <span className='sponsor__name'>{name}</span>
     </Component>
