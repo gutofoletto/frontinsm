@@ -78,4 +78,14 @@
   &__bio {
     margin: 0 0 2rem;
   }
+
+  &__social {
+    cursor: pointer;
+    fill: $color-primary;
+    padding: 0 .5rem;
+
+    &:hover {
+      fill: $color-white;
+    }
+  }
 }

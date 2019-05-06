@@ -1,4 +1,3 @@
-export { default as Button } from './ui/Button'
 export { default as Footer } from './footer/Footer'
 export { default as Hotel } from './Hotel'
 export { default as Meta } from './meta/Meta'

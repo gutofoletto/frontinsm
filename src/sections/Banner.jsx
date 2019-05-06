@@ -1,6 +1,6 @@
 import React from 'react'
+import { Button } from '../components/ui'
 import { ReactComponent as Logo } from '../images/logo.svg'
-import { Button } from '../components'
 
 import './Banner.scss'
 

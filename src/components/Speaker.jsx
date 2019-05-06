@@ -1,4 +1,5 @@
 import React from 'react'
+import { Icon } from './ui'
 
 import './Speaker.scss'
 
@@ -14,13 +15,13 @@ const Speaker = ({ avatar, name, bio, company, github, twitter }) => (
     <div className='speaker__description'>
       <p className='speaker__bio'>{bio}</p>
       {github && (
-        <a href={github} className='speaker__social'>
-          Github
+        <a href={github} className='speaker__social' title={`${name} Github`}>
+          <Icon type='github' />
         </a>
       )}
       {twitter && (
-        <a href={twitter} className='speaker__social'>
-          Twitter
+        <a href={twitter} className='speaker__social' title={`${name} Twitter`}>
+          <Icon type='twitter' />
         </a>
       )}
     </div>

@@ -1,8 +1,5 @@
 import React from 'react'
-
-import { ReactComponent as Twitter } from '../images/icon-twitter.svg'
-import { ReactComponent as Github } from '../images/icon-github.svg'
-import { ReactComponent as Medium } from '../images/icon-medium.svg'
+import { Icon } from './ui'
 
 import './Member.scss'
 
@@ -15,17 +12,17 @@ const Member = ({ name, avatar, github, medium, twitter }) => (
     <div className='member__social'>
       {github && (
         <a href={github} className='member__icon'>
-          <Github />
+          <Icon type='github' />
         </a>
       )}
       {medium && (
         <a href={medium} className='member__icon'>
-          <Medium />
+          <Icon type='medium' />
         </a>
       )}
       {twitter && (
         <a href={twitter} className='member__icon'>
-          <Twitter />
+          <Icon type='twitter' />
         </a>
       )}
     </div>
