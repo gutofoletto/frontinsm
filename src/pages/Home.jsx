@@ -2,11 +2,12 @@ import React from 'react'
 import {
   About,
   Banner,
-  Features,
-  Speakers,
-  Staff,
-  Sponsors,
   Faq,
+  Features,
+  Lead,
+  Speakers,
+  Sponsors,
+  Staff,
   Tickets,
   Tips,
 } from '../sections'
@@ -16,6 +17,7 @@ import './Home.scss'
 const Home = () => (
   <main className='home'>
     <Banner />
+    <Lead />
     <About />
     <Features />
     <Speakers />

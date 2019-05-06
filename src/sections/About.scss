@@ -1,0 +1,14 @@
+@import '../colors.scss';
+
+.about {
+  background-image: url('../images/about__bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  color: $color-white;
+  text-shadow: 0 1px 0 rgba($color-black, 0.5);
+
+  h2 {
+    color: $color-white;
+  }
+}

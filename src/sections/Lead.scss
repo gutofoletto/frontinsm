@@ -1,0 +1,12 @@
+@import '../colors.scss';
+
+.lead {
+
+  h1 {
+    color: $color-black;
+  }
+
+  a:hover {
+    color: $color-black;
+  }
+}
