@@ -11,17 +11,35 @@ const Member = ({ name, avatar, github, medium, twitter }) => (
     </div>
     <div className='member__social'>
       {github && (
-        <a href={github} className='member__icon'>
+        <a
+          href={github}
+          className='member__icon'
+          title={`${name} Github`}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <Icon type='github' />
         </a>
       )}
       {medium && (
-        <a href={medium} className='member__icon'>
+        <a
+          href={medium}
+          className='member__icon'
+          title={`${name} Medium`}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <Icon type='medium' />
         </a>
       )}
       {twitter && (
-        <a href={twitter} className='member__icon'>
+        <a
+          href={twitter}
+          className='member__icon'
+          title={`${name} Twitter`}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <Icon type='twitter' />
         </a>
       )}

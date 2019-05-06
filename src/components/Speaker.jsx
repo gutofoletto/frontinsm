@@ -15,12 +15,24 @@ const Speaker = ({ avatar, name, bio, company, github, twitter }) => (
     <div className='speaker__description'>
       <p className='speaker__bio'>{bio}</p>
       {github && (
-        <a href={github} className='speaker__social' title={`${name} Github`}>
+        <a
+          href={github}
+          className='speaker__social'
+          title={`${name} Github`}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <Icon type='github' />
         </a>
       )}
       {twitter && (
-        <a href={twitter} className='speaker__social' title={`${name} Twitter`}>
+        <a
+          href={twitter}
+          className='speaker__social'
+          title={`${name} Twitter`}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <Icon type='twitter' />
         </a>
       )}

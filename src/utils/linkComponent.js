@@ -3,8 +3,8 @@ const linkComponent = url =>
     ? {
         Component: 'a',
         href: url,
-        target: '__blank',
-        rel: 'noopener nofollow',
+        target: '_blank',
+        rel: 'noopener noreferrer',
       }
     : { Component: 'div' }
 
