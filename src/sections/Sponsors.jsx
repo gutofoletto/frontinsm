@@ -1,13 +1,15 @@
 import React from 'react'
 import { Container, Section } from '../components/layout'
+import Sponsor from '../components/Sponsor'
 
 import sponsors from '../data/sponsors'
-import Sponsor from '../components/Sponsor'
+
+import './Sponsors.scss'
 
 const { gold, silver, bronze } = sponsors
 
 const Sponsors = () => (
-  <Section title='Sponsors'>
+  <Section title='Patrocinadores' classname='sponsors'>
     <Container>
       {gold.map(sponsor => (
         <Sponsor key={sponsor.name} {...sponsor} />

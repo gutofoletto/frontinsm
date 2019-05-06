@@ -3,8 +3,9 @@ import { Section, Container } from '../components/layout'
 import { Sympla } from '../components'
 
 const Tickets = () => (
-  <Section title='Tickets'>
-    <Container>
+  <Section>
+    <Container size='small'>
+      <h1>Ingressos</h1>
       <Sympla id={461618} />
     </Container>
   </Section>

@@ -22,10 +22,10 @@ const Home = () => (
     <Features />
     <Speakers />
     <Tickets />
-    <Staff />
     <Sponsors />
     <Tips />
     <Faq />
+    <Staff />
   </main>
 )
 
