@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Section, Column } from '../components/layout'
+import { Container, Section } from '../components/layout'
 
 import './About.scss'
 

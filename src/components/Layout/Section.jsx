@@ -3,7 +3,7 @@ import Container from './Container'
 
 import './Section.scss'
 
-const Section = ({ title, children, classname }) => (
+const Section = ({ title, children, classname = '' }) => (
   <section className={`section ${classname}`}>
     {title && (
       <Container>

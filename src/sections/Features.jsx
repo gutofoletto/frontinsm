@@ -1,10 +1,12 @@
 import React from 'react'
-import { Column, Container } from '../components/layout'
+import { Column, Container, Section } from '../components/layout'
+
+import './Features.scss'
 
 const Features = () => (
-  <section className='features'>
-    <Container>
-      <Column size={33}>
+  <Section className='features'>
+    <Container size='small'>
+      <Column size={100}>
         <h2>Tecnologia</h2>
         <p>
           Trabalhar com Front-end não é somente "programar". Nesse evento você
@@ -17,7 +19,7 @@ const Features = () => (
           mercado.
         </p>
       </Column>
-      <Column size={33}>
+      <Column size={100}>
         <h2>Desenvolvimento</h2>
         <p>
           Nesse evento você vai assistir palestras sobre: (colocar tópicos dos
@@ -27,7 +29,7 @@ const Features = () => (
           veritatis ea aliquam.
         </p>
       </Column>
-      <Column size={33}>
+      <Column size={100}>
         <h2>Networking</h2>
         <p>
           O FRONT-IN é o ambiente perfeito para você compartilhar práticas,
@@ -38,7 +40,7 @@ const Features = () => (
         </p>
       </Column>
     </Container>
-  </section>
+  </Section>
 )
 
 export default Features
