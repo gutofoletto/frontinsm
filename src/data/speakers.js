@@ -30,7 +30,6 @@ const speakers = [
     company: `Alura`,
     github: `https://github.com/juunegreiros`,
     twitter: `https://twitter.com/juunegreiros`,
-    hidden: true,
   },
   {
     avatar: luineGallois,

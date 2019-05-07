@@ -1,3 +1,10 @@
-.features {
+@import '../colors.scss';
+@import '../config.scss';
 
+.features {
+  background-repeat: no-repeat;
+  background-size: contain;
+  @media (min-width: $size-desktop) {
+    background-image: url('../images/features__img.jpg');
+  }
 }
