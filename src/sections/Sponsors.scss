@@ -1,9 +1,36 @@
 @import '../colors.scss';
+@import '../config.scss';
 
 .sponsors {
-  background-color: $color-black;
 
-  h1 {
-    color: $color-white;
+  .container {
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  &__gold {
+    background-color: $color-gold;
+    padding: 2rem 0;
+  }
+
+  &__silver {
+    background-color: $color-silver;
+    padding: 2rem 0;
+  }
+
+  &__bronze {
+    background-color: $color-bronze;
+    padding: 2rem 0;
+  }
+
+  .sponsor {
+    height: 8rem;
+    width: 8rem;
+    margin: 1rem 0;
+    @media (min-width: $size-desktop) {
+      height: 13rem;
+      width: 16rem;
+    }
   }
 }

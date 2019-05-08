@@ -1,0 +1,39 @@
+@import '../config.scss';
+@import '../colors.scss';
+@import '../typography.scss';
+
+.sponsor {
+  align-items: center;
+  color: $color-black;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+
+  @media (min-width: $size-desktop) {
+    padding: 2rem;
+  }
+
+  &:after {
+    background-color: $color-white;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: skew(-5deg);
+    width: 100%;
+    z-index: -1;
+    @media (min-width: $size-desktop) {
+      transform: skew($skew);
+    }
+  }
+
+
+  &__name {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+}
