@@ -9,7 +9,6 @@ import {
   Sponsors,
   Staff,
   Tickets,
-  Tips,
 } from '../sections'
 
 import './Home.scss'
@@ -23,7 +22,6 @@ const Home = () => (
     <Speakers />
     <Tickets />
     <Sponsors />
-    <Tips />
     <Faq />
     <Staff />
   </main>
