@@ -11,11 +11,13 @@ import {
   Tickets,
 } from '../sections'
 
+import content from '../data/content'
+
 import './Home.scss'
 
 const Home = () => (
   <main className='home'>
-    <Banner />
+    <Banner {...content.banner} />
     <Lead />
     <About />
     <Features />

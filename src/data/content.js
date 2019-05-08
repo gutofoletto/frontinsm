@@ -1,4 +1,13 @@
 const content = {
+  banner: {
+    date: '8 de Junho',
+    time: '9h',
+    place: 'Itaimbém Palace Hotel',
+    cta: {
+      text: 'Inscreva-se',
+      link: 'https://www.sympla.com.br/front-in-santa-maria__461618',
+    },
+  },
   about: {
     text: [
       'O FRONT IN SM é um evento para estudantes, profissionais e entusiastas de tecnologia. Pessoas que querem aprimorar seus conhecimentos, alavancar suas carreiras ou negócios, e como consequência, ajudar a transformar o mercado de desenvolvimento Web em Santa Maria.',
