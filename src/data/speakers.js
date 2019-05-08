@@ -2,6 +2,7 @@ import igorBrandao from '../images/speakers/igor-brandao.jpg'
 import isadoraPossebon from '../images/speakers/isadora-possebon.jpg'
 import julianaNegreiros from '../images/speakers/juliana-negreiros.jpg'
 import luineGallois from '../images/speakers/luine-gallois.jpg'
+import luizaHagemann from '../images/speakers/luiza-hagemann.jpg'
 import matiasLeidemer from '../images/speakers/matias-leidemer.jpg'
 import rafaelDantas from '../images/speakers/rafael-dantas.jpg'
 import thaianeBraga from '../images/speakers/thaiane-braga.jpg'
@@ -37,6 +38,13 @@ const speakers = [
     bio: `Consultora desenvolvedora na Thoughtworks e graduanda em Engenharia de Software na UFRGS.`,
     company: `ThoughtWorks`,
     twitter: `https://twitter.com/luinegallois`,
+  },
+  {
+    avatar: luizaHagemann,
+    name: `Luiza Hagemann`,
+    bio: `Iniciadora compulsiva de RPGs, pianista e web developer convertida. Formada em Ciência da Computação pela UFRGS, hoje desenvolvedora na Globo.com.`,
+    company: `Globo.com`,
+    twitter: `https://twitter.com/shiisaas`,
   },
   {
     avatar: matiasLeidemer,
