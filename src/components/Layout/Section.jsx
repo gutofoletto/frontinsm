@@ -6,8 +6,8 @@ import './Section.scss'
 const Section = ({ title, children, classname = '' }) => (
   <section className={`section ${classname}`}>
     {title && (
-      <Container>
-        <h1>{title}</h1>
+      <Container align='center'>
+        <h1 className='section__title'>{title}</h1>
       </Container>
     )}
     {children}

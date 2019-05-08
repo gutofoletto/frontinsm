@@ -8,14 +8,14 @@ class Sympla extends React.Component {
         className='sympla'
         id='symplaw'
         src={`https://www.sympla.com.br/tickets-grid-widget?eid=${id}&lang=pt`}
-        title='symplaw'
+        title='Sympla'
         frameBorder='0'
         vspace='0'
         hspace='0'
         marginHeight='0'
         marginWidth='0'
         width='100%'
-        height='450px'
+        height='500px'
       />
     )
   }
