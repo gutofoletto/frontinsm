@@ -12,6 +12,7 @@ class Sympla extends React.Component {
         frameBorder='0'
         vspace='0'
         hspace='0'
+        scrolling='no'
         marginHeight='0'
         marginWidth='0'
         width='100%'
