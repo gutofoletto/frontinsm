@@ -4,7 +4,7 @@
 .sponsors {
 
   .container {
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -27,10 +27,11 @@
   .sponsor {
     height: 8rem;
     width: 8rem;
-    margin: 1rem 0;
+    margin: .25rem;
     @media (min-width: $size-desktop) {
       height: 10rem;
       width: 12rem;
+      margin: .5rem;
     }
   }
 }

@@ -17,6 +17,11 @@
     flex-basis: 50%;
     @media (min-width: $size-tablet) {
       padding: 0 1rem;
+      flex-basis: 100%;
+    }
+
+    @media (min-width: $size-desktop) {
+      padding: 0 1rem;
       flex-basis: 50%;
     }
   }
