@@ -4,10 +4,14 @@ import { Member } from '../components'
 
 import staff from '../data/staff'
 
+import './Staff.scss'
+
+const { title, members } = staff
+
 const Staff = () => (
-  <Section title='Staff'>
+  <Section title={title} classname='staff'>
     <Container>
-      {staff.map((member, index) => (
+      {members.map((member, index) => (
         <Column key={index} size={25}>
           <Member {...member} />
         </Column>

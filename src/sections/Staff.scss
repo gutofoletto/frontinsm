@@ -1,0 +1,12 @@
+.staff {
+
+  .container {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .member {
+    margin: 1rem auto;
+  }
+}
