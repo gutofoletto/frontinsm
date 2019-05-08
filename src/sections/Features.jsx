@@ -11,8 +11,8 @@ const Features = () => (
     <Container align='center'>
       <Column size={40} />
       <Column size={60}>
-        {content.features.map(feature => (
-          <Feature title={feature.title} icon={feature.icon}>
+        {content.features.map((feature, index) => (
+          <Feature key={index} title={feature.title} icon={feature.icon}>
             {feature.text}
           </Feature>
         ))}
