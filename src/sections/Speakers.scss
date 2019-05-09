@@ -11,10 +11,12 @@
 
   .container {
     flex-direction: row;
+    justify-content: center;
   }
 
   .speaker {
-    flex-basis: 50%;
+    flex-basis: 1;
+    margin: 1rem auto;
     @media (min-width: $size-tablet) {
       padding: 0 1rem;
       flex-basis: 100%;
