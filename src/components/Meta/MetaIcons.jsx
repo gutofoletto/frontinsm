@@ -1,7 +1,8 @@
-import React, { Fragment } from 'react'
+import React from 'react'
+import Helmet from 'react-helmet'
 
 const MetaIcons = () => (
-  <Fragment>
+  <Helmet>
     <link
       rel='apple-touch-icon-precomposed'
       sizes='57x57'
@@ -44,7 +45,7 @@ const MetaIcons = () => (
       href={`${process.env.PUBLIC_URL}/favicon/favicon-16x16.png`}
       sizes='16x16'
     />
-  </Fragment>
+  </Helmet>
 )
 
 export default MetaIcons
