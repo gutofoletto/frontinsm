@@ -14,12 +14,12 @@ const sponsors = {
     {
       name: 'GoDaddy',
       brand: GoDaddyLogo,
-      url: '',
+      url: 'https://br.godaddy.com/',
     },
     {
       name: 'ThoughtWorks',
       brand: ThoughtWorksLogo,
-      url: '',
+      url: 'https://www.thoughtworks.com/pt/',
     },
   ],
   silver: [
@@ -33,7 +33,7 @@ const sponsors = {
     {
       name: 'Garbin Tecnologia',
       brand: GarbinLogo,
-      url: '',
+      url: 'https://www.garbintecnologia.com.br/',
     },
   ],
 }
