@@ -10,7 +10,6 @@ const staff = {
       name: `Gustavo Fão`,
       avatar: avatarGustavo,
       github: `https://github.com/faogustavo`,
-      twitter: `https://twitter.com/faogustavo`,
     },
     {
       name: `Guto Foletto`,

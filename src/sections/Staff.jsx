@@ -12,9 +12,9 @@ const Staff = () => (
   <Section title={title} classname='staff'>
     <Container>
       {members.map((member, index) => (
-        <Column key={index} size={25}>
-          <Member {...member} />
-        </Column>
+        // <Column key={index} size={25}>
+        <Member {...member} />
+        // </Column>
       ))}
     </Container>
   </Section>
