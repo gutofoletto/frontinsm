@@ -7,7 +7,14 @@ import { Container } from '../layout'
 const Braziljs = () => (
   <div className='braziljs'>
     <Container align='center'>
-      <img className='braziljs__logo' src={BraziljsLogo} alt='' />
+      <a
+        href='https://braziljs.org'
+        title='BrazilJS'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        <img className='braziljs__logo' src={BraziljsLogo} alt='' />
+      </a>
     </Container>
   </div>
 )

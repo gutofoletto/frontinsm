@@ -9,7 +9,12 @@ const Credits = ({ name }) => (
         💚
       </span>{' '}
       by{' '}
-      <a href='http://github.com/gutofoletto' title='gutofoletto'>
+      <a
+        href='https://about.me/gutofoletto'
+        title='gutofoletto'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
         gutofoletto
       </a>
     </p>
