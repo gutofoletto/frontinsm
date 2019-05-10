@@ -1,5 +1,6 @@
-.staff {
+@import '../config.scss';
 
+.staff {
   .container {
     align-items: center;
     flex-wrap: wrap;
@@ -8,6 +9,10 @@
   }
 
   .member {
-    margin: 1.5rem;
+    flex: 1 0 1;
+    margin: 1rem auto;
+    @media(min-width: $size-tablet) {
+      margin: 1.5rem;
+    }
   }
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Column, Section } from '../components/layout'
+import { Container, Section } from '../components/layout'
 import { Member } from '../components'
 
 import staff from '../data/staff'
@@ -12,9 +12,7 @@ const Staff = () => (
   <Section title={title} classname='staff'>
     <Container>
       {members.map((member, index) => (
-        // <Column key={index} size={25}>
-        <Member {...member} />
-        // </Column>
+        <Member key={member.name} {...member} />
       ))}
     </Container>
   </Section>
