@@ -20,7 +20,7 @@ const Lead = () => (
       </p>
       <p>
         Faça parte do maior evento focado em web front-end do interior do RS e
-        ajudar a fortalecer o mercado de desenvolvimento Web!
+        ajude a fortalecer o mercado de desenvolvimento web!
       </p>
       <p>
         <a
