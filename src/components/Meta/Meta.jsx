@@ -6,23 +6,19 @@ import MetaFacebook from './MetaFacebook'
 import MetaTwitter from './MetaTwitter'
 import MetaIcons from './MetaIcons'
 
+import metadata from '../../data/meta'
+
 const Meta = () => (
   <Fragment>
     <Helmet>
-      <meta name='application-name' content='Front in Santa Maria' />
-      <meta name='theme-color' content='#1cd000' />
+      <meta name='application-name' content={metadata.title} />
+      <meta name='theme-color' content={metadata.color} />
       <link
         rel='shortcut icon'
         href={`${process.env.PUBLIC_URL}/favicon/favicon.ico`}
       />
-      <meta
-        name='description'
-        content='O Front-in SM (Santa Maria) foi criado com a finalidade de reunir o maior número possível de pessoas interessadas em trocar conhecimento sobre tecnologias Web Front-End.'
-      />
-      <meta
-        name='keywords'
-        content='front in sm, front-in, sm, frontinsm, front-end, frontend, santa maria, rs, rio grande do sul, evento, eventos, palestras, palestrantes, comunidade, tecnologia'
-      />
+      <meta name='description' content={metadata.description} />
+      <meta name='keywords' content={metadata.description} />
     </Helmet>
     <MetaGoogle />
     <MetaFacebook />
