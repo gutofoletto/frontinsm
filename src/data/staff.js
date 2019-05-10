@@ -26,8 +26,8 @@ const staff = {
     {
       name: `Tuane Nicola`,
       avatar: avatarTuti,
-      twitter: `https://github.com/tutinicola`,
       medium: `https://medium.com/@tutinicola`,
+      twitter: `https://twitter.com/tutinicola`,
     },
   ],
 }
