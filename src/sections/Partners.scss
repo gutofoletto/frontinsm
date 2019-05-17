@@ -1,0 +1,10 @@
+@import '../colors.scss';
+
+.partners {
+  background-color: $color-black;
+  overflow: hidden;
+
+  .section__title {
+    color: $color-white;
+  }
+}

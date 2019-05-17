@@ -6,11 +6,9 @@ import { ReactComponent as Email } from '../../images/icon-email.svg'
 import { Container } from '../layout'
 
 import './Footer.scss'
-import Braziljs from './Braziljs'
 
 const Footer = () => (
   <Fragment>
-    <Braziljs />
     <footer className='footer'>
       <div className='social'>
         <Container>
