@@ -1,9 +1,13 @@
 @import '../colors.scss';
+@import '../config.scss';
 
 .partner {
-  margin: 1rem;
+  margin: 1rem 2rem;
 
   &__logo {
     width: 8rem;
+    @media(min-width: $size-desktop) {
+      width: 10rem;
+    }
   }
 }

@@ -26,8 +26,8 @@ const Home = () => (
     <Tickets />
     <Sponsors />
     <Faq />
-    <Partners />
     <Staff />
+    <Partners />
   </main>
 )
 
