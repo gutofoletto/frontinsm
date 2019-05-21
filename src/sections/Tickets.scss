@@ -1,0 +1,11 @@
+@import '../colors';
+
+.tickets {
+  .code-of-conduct {
+    margin: 0 0 1rem;
+    text-align: center;
+    a:hover {
+      color: $color-black;
+    }
+  }
+}
