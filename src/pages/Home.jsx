@@ -15,6 +15,7 @@ import content from '../data/content'
 
 import './Home.scss'
 import Partners from '../sections/Partners'
+import Program from '../sections/Program'
 
 const Home = () => (
   <main className='home'>
@@ -24,6 +25,7 @@ const Home = () => (
     <Features />
     <Speakers />
     <Tickets />
+    <Program />
     <Sponsors />
     <Faq />
     <Staff />

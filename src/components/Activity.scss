@@ -1,0 +1,48 @@
+@import '../colors.scss';
+@import '../typography.scss';
+
+.activity {
+  border-left: 1px solid $color-black;
+  padding: 1rem;
+  position: relative;
+
+  &__time {
+    color: $color-white;
+    padding: .25rem 1rem;
+    position: relative;
+    font-weight: 700;
+    z-index: 0;
+
+    &:after {
+      background-color: $color-primary;
+      content: '';
+      height: 100%;
+      left: 0;
+      top: 0;
+      position: absolute;
+      transform: skew($skew);
+      width: 100%;
+      z-index: -1;
+    }
+  }
+
+  &__icon{
+    background: $color-white;
+    position: absolute;
+    left: -1.75rem;
+    top: 2px;
+
+    &--drink {
+      left: -1.7rem;
+    }
+  }
+
+  &__title {
+    font-family: $font-title;
+    position: relative;
+  }
+
+  &__speaker {
+    font-weight: 700;
+  }
+}
