@@ -4,7 +4,7 @@ import Container from './Container'
 import './Section.scss'
 
 const Section = ({ title, children, classname = '' }) => (
-  <section className={`section ${classname}`}>
+  <section className={`section ${classname}`} id={classname && classname}>
     {title && (
       <Container align='center'>
         <h1 className='section__title'>{title}</h1>
