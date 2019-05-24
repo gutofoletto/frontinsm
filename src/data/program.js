@@ -79,7 +79,6 @@ const program = [
     time: '19:00',
     kind: 'happyhour',
     title: 'Happy Hour!',
-    description: 'Local a definir...',
   },
 ]
 
