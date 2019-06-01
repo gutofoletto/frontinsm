@@ -13,6 +13,17 @@ const faq = [
     link: `https://bit.ly/ingressosfrontinsm`,
   },
   {
+    question: `Posso fazer inscrição no dia do evento?`,
+    answer: [`Não serão disponibilizados ingressos no dia do evento.`],
+  },
+  {
+    question: `Até quando posso fazer minha inscrição?`,
+    answer: [
+      `As inscrições com pagamento online ficarão abertas até um (1) dia antes do evento.`,
+      `As inscrições com pagamento por boleto bancário ficam disponível até 5 dias úteis antes do evento ocorrer, pois é o tempo que a plataforma de ingressos e os bancos precisam para validar a transação.`,
+    ],
+  },
+  {
     question: `Como será o credenciamento?`,
     answer: [
       `Uma equipe de credenciamento estará disponível a partir das 8h do dia 8 de junho, chegue cedo e leve sua identidade.`,
