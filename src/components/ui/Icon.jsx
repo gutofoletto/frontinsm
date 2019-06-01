@@ -14,6 +14,8 @@ import { ReactComponent as Pizza } from '../../images/icon-pizza.svg'
 import { ReactComponent as Talk } from '../../images/icon-talk.svg'
 import { ReactComponent as User } from '../../images/icon-user.svg'
 import { ReactComponent as Coffee } from '../../images/icon-coffee.svg'
+import { ReactComponent as Expand } from '../../images/icon-expand.svg'
+import { ReactComponent as Shrink } from '../../images/icon-shrink.svg'
 
 const Icon = ({ type, ...props }) => {
   switch (type) {
@@ -45,6 +47,10 @@ const Icon = ({ type, ...props }) => {
       return <Twitter {...props} />
     case 'checkin':
       return <User {...props} />
+    case 'opening':
+      return <Expand {...props} />
+    case 'closing':
+      return <Shrink {...props} />
     default:
       return null
   }
