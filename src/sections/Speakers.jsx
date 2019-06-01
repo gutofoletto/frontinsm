@@ -10,7 +10,7 @@ import './Speakers.scss'
 const Speakers = () => {
   return (
     <Section title='Speakers' classname='speakers'>
-      <Container>
+      <Container align='left' classname='speakers__container'>
         {speakers.map(
           (speaker, index) =>
             !speaker.hidden && <Speaker {...speaker} key={index} />

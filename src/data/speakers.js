@@ -1,3 +1,4 @@
+import deboraGasparetto from '../images/speakers/debora-gasparetto.jpg'
 import igorBrandao from '../images/speakers/igor-brandao.jpg'
 import isadoraPossebon from '../images/speakers/isadora-possebon.jpg'
 import julianaNegreiros from '../images/speakers/juliana-negreiros.jpg'
@@ -9,12 +10,18 @@ import thaianeBraga from '../images/speakers/thaiane-braga.jpg'
 
 const speakers = [
   {
+    avatar: deboraGasparetto,
+    name: `Débora Gasparetto`,
+    bio: `Professora Adjunta no Departamento de Desenho Industrial da UFSM. Doutora em Artes Visuais PPGAV/UFRGS. Mestre em Artes Visuais PPGART/UFSM. Bacharel em Publicidade e Propaganda FACOS/UFSM. Líder dos Grupos de Pesquisa Design, Ciência e Tecnologia UFSM/CNPq e Arte Digital e Ativismo UFSM/CNPq.`,
+    company: `UFSM`,
+    lattes: `http://lattes.cnpq.br/1722113830390578`,
+  },
+  {
     avatar: igorBrandao,
     name: `Igor Brandão`,
     bio: `Engenheiro de Software com o restante nerd gamer e finalmente uma pitada de motociclista. Misture tudo com uma boa dose de zoeira e bam! Você terá recriado o que sou, um amante de código, videogames e duas rodas.`,
     company: `GoDaddy`,
-    github: `https://github.com/ippossebon`,
-    twitter: `https://twitter.com/raffaeldantass`,
+    github: `https://github.com/igorbrandao`,
   },
   {
     avatar: isadoraPossebon,
@@ -22,7 +29,6 @@ const speakers = [
     bio: `Absurdamente enfática, sommelier de stickers e apaixonada por web. Não necessariamente nessa ordem. Formada em Ciência da Computação pela UFRGS e mestranda na mesma universidade, trabalhando com Redes e Machine Learning. Hoje trabalho na Globo.com e vivo num triângulo amoroso com Javascript e Python.`,
     company: `Globo.com`,
     github: `https://github.com/ippossebon`,
-    twitter: `https://twitter.com/raffaeldantass`,
   },
   {
     avatar: julianaNegreiros,

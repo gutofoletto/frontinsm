@@ -7,18 +7,23 @@ const program = [
   {
     time: '9:00',
     kind: 'talk',
+    title: 'Abertura Oficial',
+  },
+  {
+    time: '9:10',
+    kind: 'talk',
     title: 'Um menino chamado JavaScripto',
     speaker: 'Juliana Negreiros',
     description:
       'Vamos fazer uma imersão na mente do javascripto e entender um pouco melhor o porquê de suas ações e, principalmente, como ter uma vida saudável com ele.',
   },
   {
-    time: '9:45',
+    time: '9:50',
     kind: 'coffee',
     title: 'Coffee-break',
   },
   {
-    time: '10:15',
+    time: '10:20',
     kind: 'talk',
     title: 'Tem um tipo no meu JavaScript',
     speaker: 'Matias Leidemer',
@@ -43,11 +48,17 @@ const program = [
     kind: 'talk',
     title: 'Primeiros passos com testes com Cypress',
     speaker: 'Thaiane Braga e Luine Gallois',
-    description:
-      'Uma das dores comuns em front é desenvolver testes para javascript. O Cypress é uma ferramenta que possibilita escrever testes unitários, integração e end-to-end de forma simples, rápida e legível',
+    description: `Uma das dores comuns em front é desenvolver testes para javascript. O Cypress é uma ferramenta que possibilita escrever testes unitários, integração e end-to-end de forma simples, rápida e legível`,
   },
   {
-    time: '15:00',
+    time: '14:40',
+    kind: 'talk',
+    title: 'Design de Interfaces, entre a hibridez, os métodos e as práticas',
+    speaker: 'Débora Gasparetto',
+    description: `O design de interfaces é um campo interdisciplinar, que proporciona uma hibridez de profissionais, pesquisas, métodos e projetos. A proposta é abordar esse espaço comum por meio do método de projetação de interfaces 5I's, que parte do design centrado no usuário para proporcionar usabilidade, acessibilidade e adequadas experiências de usuário.`,
+  },
+  {
+    time: '15:20',
     kind: 'talk',
     title: 'Estendendo CSS: uma intro a Houdini',
     speaker: 'Luiza Hagemann',
@@ -55,12 +66,12 @@ const program = [
       'Uma talk expositiva sobre o novo conjunto de APIs do Houdini, mostrando um pouco da magia de finalmente poder interagir com a engine de renderização do browser.',
   },
   {
-    time: '15:45',
+    time: '16:00',
     kind: 'coffee',
     title: 'Coffee-break',
   },
   {
-    time: '16:15',
+    time: '16:30',
     kind: 'talk',
     title: 'Server Side Rendering @ globoplay',
     speaker: 'Isadora Possebon',
@@ -68,7 +79,7 @@ const program = [
       'Uma talk que aborda os conceitos de Server Side Rendering vs Client Side Rendering. Vamos explorar esses pontos usando o Globoplay como caso de uso, explorando como funciona a arquitetura da famosa ferramenta de streaming de vídeos.',
   },
   {
-    time: '17:00',
+    time: '17:10',
     kind: 'talk',
     title: 'Guia Prático para Desenvolver um Frontend Saudável',
     speaker: 'Igor Brandão',

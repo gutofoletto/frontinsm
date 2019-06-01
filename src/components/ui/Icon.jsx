@@ -4,6 +4,7 @@ import { ReactComponent as Email } from '../../images/icon-email.svg'
 import { ReactComponent as Facebook } from '../../images/icon-facebook.svg'
 import { ReactComponent as Github } from '../../images/icon-github.svg'
 import { ReactComponent as Medium } from '../../images/icon-medium.svg'
+import { ReactComponent as Lattes } from '../../images/icon-lattes.svg'
 import { ReactComponent as Twitter } from '../../images/icon-twitter.svg'
 import { ReactComponent as Development } from '../../images/icon-development.svg'
 import { ReactComponent as Networking } from '../../images/icon-networking.svg'
@@ -28,6 +29,8 @@ const Icon = ({ type, ...props }) => {
       return <Facebook {...props} />
     case 'github':
       return <Github {...props} />
+    case 'lattes':
+      return <Lattes {...props} />
     case 'medium':
       return <Medium {...props} />
     case 'networking':

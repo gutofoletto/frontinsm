@@ -10,8 +10,8 @@ const alignment = {
   center: 'container--centered',
 }
 
-const Container = ({ children, size, align }) => (
-  <div className={`container ${sizes[size]} ${alignment[align]}`}>
+const Container = ({ children, size, align, classname }) => (
+  <div className={`container ${sizes[size]} ${alignment[align]} ${classname}`}>
     {children}
   </div>
 )

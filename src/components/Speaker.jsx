@@ -3,7 +3,7 @@ import { Icon } from './ui'
 
 import './Speaker.scss'
 
-const Speaker = ({ avatar, name, bio, company, github, twitter }) => (
+const Speaker = ({ avatar, name, bio, company, github, twitter, lattes }) => (
   <div className='speaker'>
     <div className='speaker__head'>
       {avatar && <img className='speaker__avatar' src={avatar} alt='' />}
@@ -34,6 +34,17 @@ const Speaker = ({ avatar, name, bio, company, github, twitter }) => (
           rel='noopener noreferrer'
         >
           <Icon type='twitter' />
+        </a>
+      )}
+      {lattes && (
+        <a
+          href={lattes}
+          className='speaker__social'
+          title={`${name} Lattes`}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <Icon type='lattes' />
         </a>
       )}
     </div>
