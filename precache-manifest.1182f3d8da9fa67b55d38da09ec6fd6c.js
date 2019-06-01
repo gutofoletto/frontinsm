@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "25371c4f848241610e63ceb8a8519527",
+    "revision": "79c9befafcdf6ec5caaec3c2f0f260de",
     "url": "/frontinsm/index.html"
   },
   {
-    "revision": "39d851299d9aedfb0fe7",
-    "url": "/frontinsm/static/css/main.d08b7884.chunk.css"
+    "revision": "560431c458cc01a2ed89",
+    "url": "/frontinsm/static/css/main.4de3393b.chunk.css"
   },
   {
-    "revision": "7b29583738bc0b906106",
-    "url": "/frontinsm/static/js/2.291abefd.chunk.js"
+    "revision": "0d98e5eae6c161530ed1",
+    "url": "/frontinsm/static/js/2.1debda00.chunk.js"
   },
   {
-    "revision": "39d851299d9aedfb0fe7",
-    "url": "/frontinsm/static/js/main.f8d5b4e8.chunk.js"
+    "revision": "560431c458cc01a2ed89",
+    "url": "/frontinsm/static/js/main.0869d9b5.chunk.js"
   },
   {
     "revision": "838d2b037411a5c06553",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "81a040089db34bfff667f7f689a33064",
     "url": "/frontinsm/static/media/braziljs.81a04008.svg"
+  },
+  {
+    "revision": "fe7025004ddb2ad9497e2240d993c8d4",
+    "url": "/frontinsm/static/media/debora-gasparetto.fe702500.jpg"
   },
   {
     "revision": "7ad265d985eb2eef952824f13df6a660",
@@ -78,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "75702fe837a03f44f5f4f122c5d25b19",
     "url": "/frontinsm/static/media/icon-github.75702fe8.svg"
+  },
+  {
+    "revision": "fb259f24bb4fa6c5e966513f80a254ff",
+    "url": "/frontinsm/static/media/icon-lattes.fb259f24.svg"
   },
   {
     "revision": "46ac2625f96c4ee7ae952a2fd88247c3",
