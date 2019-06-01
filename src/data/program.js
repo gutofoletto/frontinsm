@@ -87,7 +87,7 @@ const program = [
       'O mundo todo sabe da genialidade e capacidade de improviso do povo brasileiro, e esse fato não é diferente com software - especialmente frontend - e isso é uma faca de dois gumes. Com orientação, resulta em soluções simples e elegantes; mas sem direcionamento, consolida aberrações difíceis de manter. A fim de complementar a saúde do desenvolvimento de frontend da galera, discuto nessa talk conceitos como padrões de projeto, técnicas comumente desprezadas e até mentalidades que trazem resultados positivos na prática e outros que possuem o efeito contrário (como over-engineering e code jealousy). Portanto e independente do nível técnico pessoal, chega mais que certamente há algo de produtivo para todos, de júnior a sênior.',
   },
   {
-    time: '17:40',
+    time: '17:50',
     kind: 'closing',
     title: 'Encerramento',
   },
