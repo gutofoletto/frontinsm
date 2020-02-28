@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "081c240725e84ecd1820cc62b90c8105",
+    "revision": "b16b9d17c0f2919ee433548af934d149",
     "url": "/frontinsm/index.html"
   },
   {
-    "revision": "35f720c350b9aa67a8f5",
-    "url": "/frontinsm/static/css/main.eb315345.chunk.css"
+    "revision": "9435d6477c843d96a1a5",
+    "url": "/frontinsm/static/css/main.f93d439c.chunk.css"
   },
   {
-    "revision": "25f6c51110051732c957",
-    "url": "/frontinsm/static/js/2.5690aebf.chunk.js"
+    "revision": "57aeb4091f21fe95fde3",
+    "url": "/frontinsm/static/js/2.58f0d668.chunk.js"
   },
   {
-    "revision": "35f720c350b9aa67a8f5",
-    "url": "/frontinsm/static/js/main.109ef1a7.chunk.js"
+    "revision": "9435d6477c843d96a1a5",
+    "url": "/frontinsm/static/js/main.b71ae93a.chunk.js"
   },
   {
     "revision": "838d2b037411a5c06553",
@@ -24,20 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/frontinsm/static/media/about__bg.f2929db6.jpg"
   },
   {
-    "revision": "81a040089db34bfff667f7f689a33064",
-    "url": "/frontinsm/static/media/braziljs.81a04008.svg"
-  },
-  {
-    "revision": "e5576a92685f402e635d26919f85b329",
-    "url": "/frontinsm/static/media/coderace.e5576a92.svg"
-  },
-  {
     "revision": "fe7025004ddb2ad9497e2240d993c8d4",
     "url": "/frontinsm/static/media/debora-gasparetto.fe702500.jpg"
-  },
-  {
-    "revision": "7ad265d985eb2eef952824f13df6a660",
-    "url": "/frontinsm/static/media/frontendbr.7ad265d9.svg"
   },
   {
     "revision": "85287fa6a42fc728b4992fc6ea40d4c4",
@@ -60,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/frontinsm/static/media/gutofoletto.1b473bea.jpg"
   },
   {
-    "revision": "e1ad44238afb7573757e0fc699089e14",
-    "url": "/frontinsm/static/media/home__banner.e1ad4423.jpg"
+    "revision": "2dc7ccf29031db706fd322f7f3db2429",
+    "url": "/frontinsm/static/media/home__banner.2dc7ccf2.jpg"
   },
   {
     "revision": "5723e3f9346fcc6dd4bf28f9be100156",
