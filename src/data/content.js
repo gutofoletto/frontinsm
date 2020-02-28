@@ -1,11 +1,11 @@
 const content = {
   banner: {
-    date: '8 de Junho',
-    time: '9h',
-    place: 'Itaimbé Palace Hotel',
+    date: '??/??',
+    time: '??:??',
+    place: '...',
     cta: {
-      text: 'Inscreva-se',
-      link: 'https://www.sympla.com.br/front-in-santa-maria__461618',
+      text: 'Em breve',
+      link: '',
     },
   },
   about: {

@@ -1,8 +1,8 @@
-import React from 'react'
+import './Banner.scss'
+
 import { Button } from '../components/ui'
 import { ReactComponent as Logo } from '../images/logo.svg'
-
-import './Banner.scss'
+import React from 'react'
 
 const Banner = ({ date, time, place, cta }) => (
   <div className='banner'>
