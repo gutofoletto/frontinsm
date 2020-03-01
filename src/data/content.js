@@ -1,12 +1,21 @@
 const content = {
   banner: {
-    date: '??/??',
-    time: '??:??',
-    place: '...',
-    cta: {
-      text: 'Em breve',
-      link: '',
-    },
+    title: 'O maior evento de Front-end do interior do RS',
+    date: '04/07/20',
+    time: '09:00',
+    place: 'No auditório da CESMA',
+    ctas: [
+      {
+        text: 'Inscreva-se',
+        link: '',
+        variant: 'primary',
+      },
+      {
+        text: 'Call4Papers',
+        link: '',
+        variant: 'secondary',
+      },
+    ],
   },
   about: {
     text: [

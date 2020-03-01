@@ -3,9 +3,10 @@
 @import '../../typography';
 
 .button {
-  background: transparent;
-  border: none;
+  background: $color-primary;
   color: $color-white;
+  border: none;
+  border-bottom: 10px solid darken($color-primary, 10);
   cursor: pointer;
   display: inline-block;
   font-weight: 700;
@@ -15,25 +16,18 @@
   position: relative;
   text-align: center;
   text-transform: uppercase;
+  transition: all 500ms ease;
   z-index: 1;
 
-  &:after {
-    background-color: $color-primary;
-    content: "";
-    height: 100%;
-    transform: skewX($skew);
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: -1;
+  &:hover {
+    background: $color-black;
+    color: $color-primary;
+    border-bottom: 2px solid darken($color-black, 10);
   }
 
-  &:hover {
+  &--secondary {
+    background: $color-white;
     color: $color-primary;
-
-    &:after {
-      background-color: $color-white;
-    }
+    border-bottom: 10px solid darken($color-white, 20);
   }
 }

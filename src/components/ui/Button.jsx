@@ -7,10 +7,12 @@ const propTypes = {
   to: PropTypes.string,
   type: PropTypes.string,
   children: PropTypes.node,
+  variant: PropTypes.string,
 }
 
 const defaultProps = {
   type: 'button',
+  variant: 'primary',
 }
 
 const securityProps = url => {
@@ -22,13 +24,23 @@ const securityProps = url => {
     : {}
 }
 
-const Button = ({ to, children, type, ...rest }) =>
+const variants = {
+  primary: '',
+  secondary: 'button--secondary',
+}
+
+const Button = ({ to, children, type, variant, ...rest }) =>
   to ? (
-    <a href={to} className='button' {...rest} {...securityProps(to)}>
+    <a
+      href={to}
+      className={`button ${variants[variant]}`}
+      {...rest}
+      {...securityProps(to)}
+    >
       {children}
     </a>
   ) : (
-    <button type={type} className='button' {...rest}>
+    <button type={type} className={`button ${variants[variant]}`} {...rest}>
       {children}
     </button>
   )

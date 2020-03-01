@@ -3,79 +3,104 @@
 @import '../typography';
 
 .banner {
-  align-items: center;
-  background-image: url('../images/home__banner.jpg');
+  background-image: url(../images/home__banner.jpg);
+  background-position: center bottom;
   background-size: cover;
-  background-position: bottom center;
   background-repeat: no-repeat;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 5fr 5fr 1/5fr;
+  grid-template-areas:
+    'logo'
+    'headline'
+    'content'
+    'cta';
   flex: 1;
-  flex-direction: column;
-  justify-content: center;
+  height: 100vh;
   overflow: hidden;
   position: relative;
-  min-height: 80vh;
   width: 100%;
-
   @media (min-width: $size-tablet) {
-    align-items: center;
-  }
-
-  &__container {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
+    border-left: 4px solid $color-primary;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr;
+    grid-template-areas:
+      'logo . headline headline headline'
+      'logo . headline headline headline'
+      'content content headline headline headline'
+      'content content cta cta cta';
   }
 
   &__logo {
-    align-content: center;
-    fill: $color-white;
+    align-items: center;
+    background: $color-black;
+    fill: $color-primary;
     display: flex;
-    padding: 2rem;
-    height: 10rem;
-
+    justify-content: center;
+    grid-area: logo;
+    padding: 1rem;
     @media (min-width: $size-tablet) {
-      height: 15rem;
-      margin-right: 1rem;
-      width: 15rem;
+      padding: 2rem;
     }
 
     svg {
       display: block;
       fill: inherit;
-      margin: 0 auto;
+      width: 64px;
+      @media (min-width: $size-tablet) {
+        width: 128px;
+      }
+    }
+  }
+
+  &__headline {
+    align-items: center;
+    display: flex;
+    grid-area: headline;
+    padding: 1rem;
+    @media (min-width: $size-tablet) {
+      align-items: flex-end;
+      padding: 2rem 4rem;
+    }
+
+    h1 {
+      color: $color-white;
     }
   }
 
   &__content {
-    padding: 2rem;
+    align-items: center;
+    background-color: $color-white;
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
     position: relative;
-    text-align: center;
-    z-index: 0;
-
-    @media (min-width: $size-desktop) {
-      padding: 2rem 5rem;
-    }
-
-    &:after {
-      background-color: $color-white;
-      content: '';
-      height: 100%;
-      left: 0;
-      position: absolute;
-      top: 0;
-      width: 100%;
-      transform: skew($skew);
-      z-index: -1;
+    @media (min-width: $size-tablet) {
+      padding: 4rem;
     }
   }
 
+  &__title {
+    color: $color-black;
+  }
+
   &__cta {
-    margin: 2rem auto;
-    @media (min-width: $size-tablet) {
-      margin: 4rem auto;
+    align-self: end;
+    grid-area: cta;
+    height: 100%;
+    @media (min-width: $size-desktop) {
+      display: flex;
+    }
+
+    .button {
+      display: block;
+      width: 100%;
+      height: 50%;
+      @media (min-width: $size-desktop) {
+        height: 100%;
+      }
     }
   }
 }
