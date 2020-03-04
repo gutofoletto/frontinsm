@@ -6,14 +6,9 @@ const content = {
     place: 'No auditório da CESMA',
     ctas: [
       {
-        text: 'Inscreva-se',
-        link: '',
-        variant: 'primary',
-      },
-      {
         text: 'Call4Papers',
-        link: '',
-        variant: 'secondary',
+        link: 'https://forms.gle/kYEBVm8D27ahcL6E9',
+        variant: 'primary',
       },
     ],
   },

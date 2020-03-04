@@ -90,17 +90,14 @@
     align-self: end;
     grid-area: cta;
     height: 100%;
-    @media (min-width: $size-desktop) {
+    @media (min-width: $size-tablet) {
+      align-items: flex-end;
       display: flex;
     }
 
     .button {
       display: block;
       width: 100%;
-      height: 50%;
-      @media (min-width: $size-desktop) {
-        height: 100%;
-      }
     }
   }
 }
