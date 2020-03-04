@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.08117b7c.chunk.css",
+    "main.css": "/static/css/main.61f560f0.chunk.css",
     "main.js": "/static/js/main.6a9e3626.chunk.js",
     "main.js.map": "/static/js/main.6a9e3626.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -8,9 +8,9 @@
     "static/js/2.3a965e25.chunk.js": "/static/js/2.3a965e25.chunk.js",
     "static/js/2.3a965e25.chunk.js.map": "/static/js/2.3a965e25.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b4cbbe09bc32d60e25cd2a14ccdbaf33.js": "/precache-manifest.b4cbbe09bc32d60e25cd2a14ccdbaf33.js",
+    "precache-manifest.4e977598a1f0ba58b1cd16cd0006770c.js": "/precache-manifest.4e977598a1f0ba58b1cd16cd0006770c.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.08117b7c.chunk.css.map": "/static/css/main.08117b7c.chunk.css.map",
+    "static/css/main.61f560f0.chunk.css.map": "/static/css/main.61f560f0.chunk.css.map",
     "static/media/About.scss": "/static/media/about__bg.f2929db6.jpg",
     "static/media/debora-gasparetto.jpg": "/static/media/debora-gasparetto.fe702500.jpg",
     "static/media/garbin.svg": "/static/media/garbin.85287fa6.svg",
