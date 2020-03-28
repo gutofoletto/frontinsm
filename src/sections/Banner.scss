@@ -3,101 +3,30 @@
 @import '../typography';
 
 .banner {
+  align-items: center;
   background-image: url(../images/home__banner.jpg);
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 2fr 5fr 5fr 1/5fr;
-  grid-template-areas:
-    'logo'
-    'headline'
-    'content'
-    'cta';
   flex: 1;
-  height: 100vh;
+  display: flex;
+  justify-content: center;
   overflow: hidden;
   position: relative;
   width: 100%;
-  @media (min-width: $size-tablet) {
-    border-left: 4px solid $color-primary;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 5fr 1fr;
-    grid-template-areas:
-      'logo . headline headline headline'
-      'logo . headline headline headline'
-      'content content headline headline headline'
-      'content content cta cta cta';
-  }
 
   &__logo {
     align-items: center;
-    background: $color-black;
     fill: $color-primary;
     display: flex;
     justify-content: center;
     grid-area: logo;
     padding: 1rem;
-    @media (min-width: $size-tablet) {
-      padding: 2rem;
-    }
 
     svg {
       display: block;
       fill: inherit;
-      width: 64px;
-      @media (min-width: $size-tablet) {
-        width: 128px;
-      }
-    }
-  }
-
-  &__headline {
-    align-items: center;
-    display: flex;
-    grid-area: headline;
-    padding: 1rem;
-    @media (min-width: $size-tablet) {
-      align-items: flex-end;
-      padding: 2rem 4rem;
-    }
-
-    h1 {
-      color: $color-white;
-    }
-  }
-
-  &__content {
-    align-items: center;
-    background-color: $color-white;
-    grid-area: content;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 1rem;
-    position: relative;
-    @media (min-width: $size-tablet) {
-      padding: 4rem;
-    }
-  }
-
-  &__title {
-    color: $color-black;
-  }
-
-  &__cta {
-    align-self: end;
-    grid-area: cta;
-    height: 100%;
-    @media (min-width: $size-tablet) {
-      align-items: flex-end;
-      display: flex;
-    }
-
-    .button {
-      display: block;
-      width: 100%;
+      width: 128px;
     }
   }
 }
